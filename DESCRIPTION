@@ -25,6 +25,7 @@ Imports:
 Suggests: 
     covr,
     knitr,
+    reticulate,
     rmarkdown
 Encoding: UTF-8
 LazyData: true
