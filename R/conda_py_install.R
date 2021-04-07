@@ -16,7 +16,7 @@ conda_py_install <- function(env_name,
                           )
 {
 
-
+stopifnot(all(names(pkgs) == c("conda", "py")))
 install_miniconda(...)
 
 reticulate::conda_install(envname = env_name,
