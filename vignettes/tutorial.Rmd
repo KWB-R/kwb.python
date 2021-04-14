@@ -16,9 +16,10 @@ knitr::opts_chunk$set(
 
 ```{r setup}
 library(kwb.python)
-kwb.python::install_miniconda()
 env_name <- "test"
-reticulate::conda_create(envname = env_name)
+kwb.python::conda_py_install(envname = env_name, pkgs = list(conda = "python", 
+                                                             py = NULL))
+
 path_environment_yml <- kwb.python::conda_export(condaenv = env_name)
 path_environment_yml
 cat(paste0(readLines(path_environment_yml), collapse = "\n"))

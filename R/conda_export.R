@@ -24,8 +24,13 @@ conda_export <- function(condaenv, export_dir = tempdir()) {
 
   sys_name <- as.character(Sys.info()['sysname'])
 
-  cmds <- sprintf("conda activate %s && conda env export > %s",
+  conda_bat <- miniconda_conda(path = reticulate::miniconda_path())
+  stopifnot(file.exists(conda_bat))
+
+  cmds <- sprintf("%s activate %s && %s env export > %s",
+                  conda_bat,
                   condaenv,
+                  conda_bat,
                   path_env_yml)
 
    if(sys_name == "Windows") {
