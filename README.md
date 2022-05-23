@@ -3,6 +3,7 @@
 [![codecov](https://codecov.io/github/KWB-R/kwb.python/branch/main/graphs/badge.svg)](https://codecov.io/github/KWB-R/kwb.python)
 [![Project Status](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
 [![CRAN_Status_Badge](https://www.r-pkg.org/badges/version/kwb.python)]()
+[![DOI](https://zenodo.org/badge/doi/10.5281/zenodo.6571351.svg)](https://doi.org/10.5281/zenodo.6571351)
 
 # kwb.python
 
