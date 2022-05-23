@@ -1,4 +1,4 @@
-# [kwb.python 0.1.0](https://github.com/KWB-R/kwb.python/releases/tag/v0.1.0) <small>2022-05-20</small>
+# [kwb.python 0.1.0](https://github.com/KWB-R/kwb.python/releases/tag/v0.1.0) <small>2022-05-23</small>
 
 Functions for installing python packages and using them from within R
 
